@@ -5,9 +5,20 @@
 	"name": "${name}",
 	"description": "Enhances Minecraft's ambience with hand-crafted visual effects like fireflies, falling leaves, and waterfall cascades",
 	"authors": [
-		"Chai",
-		"Lyroq1s"
+		"Chai"
 	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/particular/",
+		"sources": "https://github.com/chailotl/particular",
+		"issues": "https://github.com/chailotl/particular/issues"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/SuZb3aJUCx"
+			}
+		}
+	},
 	"license": "LGPL-3.0",
 	"icon": "assets/particular/icon.png",
 	"environment": "*",
@@ -21,10 +32,10 @@
 	],
 	"accessWidener": "particular.accesswidener",
 	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.6",
-		"java": ">=21",
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20",
+		"java": ">=17",
 		"fabric-api": "*",
-		"owo-lib": "^0.12.8"
+		"owo-lib": "^0.11.2"
 	}
 }
