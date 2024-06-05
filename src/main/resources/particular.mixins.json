@@ -1,7 +1,7 @@
 {
 	"required": true,
 	"package": "com.chailotl.particular.mixin",
-	"compatibilityLevel": "JAVA_17",
+	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 	],
 	"injectors": {
@@ -13,15 +13,11 @@
 		"AccessorBlockLeakParticle",
 		"AccessorChestBlockEntity",
 		"AccessorEnderChestBlockEntity",
-		"AccessorParticle",
-		"InjectBarrelBlock",
 		"InjectBlockLeakParticle",
 		"InjectBubbleColumnUpParticle",
 		"InjectCakeBlock",
-		"InjectChestBlock",
 		"InjectChestBlockEntity",
 		"InjectContinuousFalling",
-		"InjectEnderChestBlock",
 		"InjectEnderChestBlockEntity",
 		"InjectEntity",
 		"InjectFlowableFluid",

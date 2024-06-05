@@ -1,5 +1,5 @@
 package com.chailotl.particular.mixin;
-
+/*
 import com.chailotl.particular.Main;
 import net.minecraft.block.BarrelBlock;
 import net.minecraft.block.BlockState;
@@ -43,3 +43,4 @@ public class InjectBarrelBlock
 		}
 	}
 }
+*/

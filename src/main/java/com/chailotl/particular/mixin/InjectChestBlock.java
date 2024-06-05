@@ -1,5 +1,5 @@
 package com.chailotl.particular.mixin;
-
+/*
 import com.chailotl.particular.Main;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -44,3 +44,4 @@ public class InjectChestBlock
 		}
 	}
 }
+*/
