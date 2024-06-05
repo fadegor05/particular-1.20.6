@@ -94,6 +94,6 @@ public abstract class InjectEntity
 		//Vec3d vec3d = entity.getVelocity();
 
 		// 3D splash
-		getWorld().addParticle(Main.WATER_SPLASH_EMITTER, getX(), baseY + prevState.getHeight(), getZ(), dimensions.width, Collections.max(velocities), 0.0);
+		getWorld().addParticle(Main.WATER_SPLASH_EMITTER, getX(), baseY + prevState.getHeight(), getZ(), dimensions.width(), Collections.max(velocities), 0.0);
 	}
 }
