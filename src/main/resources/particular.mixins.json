@@ -9,6 +9,7 @@
 	},
 	"client": [
 		"AccessorBiome",
+		"AccessorParticle",
 		"AccessorBillboardParticle",
 		"AccessorBlockLeakParticle",
 		"AccessorChestBlockEntity",

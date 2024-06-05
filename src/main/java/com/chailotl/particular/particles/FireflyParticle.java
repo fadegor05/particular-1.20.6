@@ -1,6 +1,6 @@
 package com.chailotl.particular.particles;
 
-//import com.chailotl.particular.mixin.AccessorParticle;
+import com.chailotl.particular.mixin.AccessorParticle;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.particle.*;
@@ -62,7 +62,7 @@ public class FireflyParticle extends SpriteBillboardParticle
 
 		if (onGround)
 		{
-			//((AccessorParticle) this).setField_21507(false);
+			((AccessorParticle) this).setStopped(false);
 			ageOffset += 5;
 		}
 
